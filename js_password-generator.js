@@ -6,7 +6,6 @@ function changeVocals (str) {
     for (var i = 0; i < str.length; i++) {
         arr_str.push(str[i]);
     }
-    console.log(arr_str);
 
     for (var i = 0; i < arr_str.length; i++) {
         for (var j = 0; j < arr_change_vocals.length; j++) {
@@ -55,7 +54,6 @@ function changeVocals (str) {
     for (var i = 0; i < str.length; i++) {
         arr_str.push(str[i]);
     }
-    console.log(arr_str);
 
     for (var i = 0; i < arr_str.length; i++) {
         if (arr_str[i] === ' ') {
